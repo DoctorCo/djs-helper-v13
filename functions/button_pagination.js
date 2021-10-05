@@ -24,8 +24,8 @@ const button_pagination = async (message, embeds) => {
 
   let button = new MessageActionRow()
     .addComponents(
-      new MessageButton().setCustomId(`-1`).setLabel('⏪').setStyle('SUCCESS'),
-      new MessageButton().setCustomId(`-2`).setLabel('⏩').setStyle('SUCCESS')
+      new MessageButton().setCustomId(`-1`).setLabel('《').setStyle('SUCCESS'),
+      new MessageButton().setCustomId(`-2`).setLabel('》').setStyle('SUCCESS')
     );
 
   let buttons = [
